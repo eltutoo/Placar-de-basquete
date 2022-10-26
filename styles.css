@@ -1,0 +1,65 @@
+body {
+    background-color: #047857;
+    position: absolute;
+    width: 1800px;
+}
+
+@font-face {
+    font-family: score;
+    src: url("cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+
+.score {
+    background-color: black;
+    height: 300px;
+    width: 400px; 
+    border-radius: 20px;
+}
+
+.scrtxt {
+    width: 400px;
+    height: 300px;
+    font-size: 200px;
+    line-height: -10px;
+    margin: auto;
+    font-weight: 400;
+    text-align: center;
+    font-family: score;
+    padding-top: 50px;
+    color: orangered;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+    align-items: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #047857;
+    border: 2px solid white;
+    font-size: larger;
+    margin: 20px 5px 5px 0;
+    font-family: score;
+    color: white;
+    padding: 10px;
+}
+
+button:hover {
+    color: black;
+    border-color: black;
+}
+
+#nj {
+    display: block;
+    margin-left: 800px;
+    font-size: 50px;
+}
